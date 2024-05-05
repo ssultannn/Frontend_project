@@ -1,0 +1,171 @@
+.productdetails {
+  color: white;
+  background-color: black;
+}
+.img-info-flex {
+  width: 60%;
+  height: 80vh;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.productdetails .img-container {
+  width: 55%;
+}
+.productdetails .img-container img {
+  width: 100%;
+  height: 70%;
+  margin: 3%;
+}
+.productdetails .img-container p {
+  margin: 3%;
+}
+.info-container {
+  width: 40%;
+  margin: 1%;
+}
+.info-container h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.info-container h4 {
+  margin: 15px 0;
+}
+.info-container .star-flex {
+  display: flex;
+}
+.info-container .star-flex div {
+  margin-right: 10px;
+}
+
+.info-container .star-flex p {
+}
+.info-container h5 {
+  margin: 15px 0;
+}
+.info-container input {
+  width: 90px;
+  height: 45px;
+  border: 0;
+}
+.info-container .add-buy button {
+  width: 85%;
+  border: 0;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  padding: 7px;
+  margin-left: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.9;
+}
+#addbtn {
+  background-color: rgb(136, 88, 237);
+  color: white;
+}
+#buybtn {
+  background-color: white;
+  color: rgb(136, 88, 237);
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.info-container button:hover {
+  opacity: 0.85;
+}
+.product-info button {
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+.info-container hr {
+  margin-left: 0;
+}
+.reviews {
+  width: 60%;
+  margin: 30px auto;
+  color: white;
+}
+
+.review {
+  margin-top: -20px;
+}
+
+.reviews hr {
+  width: 99%;
+  height: 0.01px;
+}
+.review {
+  padding: 10px;
+}
+.review h4 {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.review h3 {
+  font-weight: 600;
+  font-size: 26px;
+  margin: 10px 0;
+}
+.review p {
+  margin: 12px 0;
+}
+.review div {
+  display: flex;
+}
+.review div h6 {
+  margin-right: 15px;
+}
+.review div p {
+  margin: 0 5px;
+}
+.review div img {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.review div .review-yes:hover,
+.review div .review-no:hover {
+  opacity: 0.7;
+}
+.dots {
+  float: right;
+  cursor: pointer;
+}
+.dots:hover {
+  opacity: 0.7;
+}
+.pp {
+  margin-top: 10px;
+  justify-content: center;
+}
+.selectors {
+  display: flex;
+  float: right;
+  margin-top: -7px;
+}
+.selectors p {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+
+.selectors select {
+  background: transparent;
+  color: white;
+  border: 0;
+  padding: 2px;
+  margin-top: -13px;
+}
+.selectors select:hover {
+  opacity: 0.7;
+}
+.selectors select option {
+  color: white;
+  padding: 2px;
+  background: transparent;
+  background-color: black;
+}

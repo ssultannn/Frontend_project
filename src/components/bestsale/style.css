@@ -1,0 +1,35 @@
+.carousel {
+  background-color: black;
+  color: white;
+  padding: 170px 150px;
+}
+.header-carousel {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.header-carousel h2 {
+  letter-spacing: 2px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header-carousel button {
+  /* padding: 6px 40px; */
+  border: 0;
+  border-radius: 50px;
+  color: rgb(136, 88, 237);
+  font-weight: bolder;
+  cursor: pointer;
+  width: 140px;
+  height: 46px;
+  transition: 0.7s;
+}
+.header-carousel button:hover {
+  background-color: rgb(136, 88, 237);
+  color: white;
+  /* padding: 4px 38px; */
+  width: 140px;
+  height: 46px;
+  border: 2px solid white;
+}

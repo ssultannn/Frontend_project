@@ -1,0 +1,244 @@
+.layout {
+  width: 100%;
+  height: 20vh;
+  background-color: transparent;
+  display: flex;
+  color: white;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  margin: 30px 100px;
+}
+.logo img {
+  width: 240px;
+  height: 80px;
+}
+.logo h2 {
+  margin: 20px 0;
+}
+.flex-layout {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 100px;
+  margin-left: auto;
+}
+.flex-layout ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.flex-layout ul li {
+  margin: 0 20px;
+}
+.flex-layout img {
+  width: 50px;
+  height: 50px;
+}
+.login {
+  margin: 0 20px;
+}
+
+.basket {
+  text-align: center;
+  margin: 0 30px;
+}
+.basket img {
+  margin-top: -28px;
+  position: absolute;
+  top: 65px;
+  width: 30px;
+  height: 30px;
+}
+.basket button p {
+  font-size: 15px;
+  margin-left: 30px;
+}
+.basket button {
+  width: 80px;
+  background: transparent;
+  border: 0;
+  color: white;
+  padding: 5px;
+
+  text-align: center;
+}
+
+.flex-layout a {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+
+  /* color: rgb(153, 55, 162); */
+}
+.flex-layout a {
+  text-decoration: none;
+  position: relative;
+}
+.flex-layout a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(136, 88, 237);
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+
+  transition: transform 0.9s ease;
+}
+.flex-layout a:hover::after {
+  transform: scaleX(1);
+}
+.flex-layout a:hover {
+  color: rgb(136, 88, 237);
+}
+/* .flex-layout a:focus {
+  color: rgb(136, 88, 237);
+} */
+.login button {
+  padding: 2px;
+  background: transparent;
+  color: white;
+  border: 0;
+  font-size: 18px;
+}
+.login button:hover {
+  opacity: 0.8;
+}
+.layout .modal {
+  color: black;
+}
+
+.showbasket {
+  color: white;
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  right: -500px;
+  top: 0;
+  z-index: 100;
+  position: fixed;
+}
+.showbasket .basket-header {
+  background-color: white;
+  color: black;
+  display: flex;
+  padding: 30px;
+}
+.showbasket .basket-header img {
+  width: 28px;
+  height: 28px;
+  /* margin-left: 20px; */
+  margin-right: 110px;
+}
+.showbasket .basket-header h2 {
+  text-align: center;
+}
+.showbasket .basket-products {
+  height: 69vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: black;
+}
+.scroll {
+}
+.showbasket .basket-product {
+  padding: 10px;
+  padding-left: 2px;
+}
+.showbasket .basket-product .m img {
+  width: 150px;
+  height: 120px;
+  padding: 10px;
+}
+.remove-img {
+  text-align: right !important;
+  margin-left: 105px;
+}
+.remove-img img {
+  text-align: right !important;
+}
+.showbasket .basket-product h5 {
+}
+
+.showbasket .basket-product p {
+  font-weight: bold;
+}
+
+.showbasket .basket-product input {
+  background: transparent;
+  border: 0;
+  color: white;
+  border: 1px solid white;
+  width: 100px;
+  padding: 2px;
+  padding-left: 5px;
+}
+.showbasket .total {
+  margin-top: 0;
+  padding: 15px;
+  text-align: center;
+  /* float: left !important; */
+  width: 100%;
+  background-color: black;
+}
+.total-text {
+  float: left;
+}
+/* .showbasket .total h4,
+.showbasket .total h5 {
+  float: left;
+  margin: 3px 0;
+} */
+.showbasket .total h5 {
+  margin: 5px 0;
+}
+.showbasket .total button {
+  text-align: center !important;
+  width: 90%;
+  border: 0;
+  background-color: rgb(147, 97, 255);
+  opacity: 0.9;
+  color: black;
+  font-weight: 600;
+  padding: 6px;
+}
+.showbasket .total button:hover {
+  opacity: 1;
+}
+@keyframes basketToRight {
+  0% {
+    right: -20px;
+  }
+  100% {
+    right: -500px;
+  }
+}
+@keyframes basketToLeft {
+  0% {
+    right: -500px;
+  }
+  100% {
+    right: -20px;
+  }
+}
+.basket-animation {
+  animation: basketToRight 1s forwards;
+}
+
+.basket-animation-left {
+  animation: basketToLeft 1s forwards;
+}

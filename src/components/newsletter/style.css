@@ -1,0 +1,84 @@
+.newsletter {
+  background-image: url("https://static.wixstatic.com/media/c837a6_81939da7c37340c09c59a78434528f49~mv2.jpg/v1/fill/w_2537,h_855,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_81939da7c37340c09c59a78434528f49~mv2.jpg");
+  color: white;
+  background-size: 100% !important;
+}
+
+.letter {
+  padding: 65px 0;
+}
+.letter h2 {
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.letter p {
+  font-size: 18px;
+  text-align: center;
+  margin: 25px 0;
+}
+.letter form {
+  width: 30%;
+  margin: 30px auto;
+}
+.letter label {
+  width: 100%;
+  text-align: center;
+}
+.letter input {
+  border: 2px solid white;
+  width: 100%;
+  border-radius: 10px 10px 0 0 !important;
+  padding: 10px;
+  background-color: transparent;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: white;
+  text-align: center;
+}
+.letter input:not(:valid) {
+  border: 2px solid rgb(212, 0, 0);
+}
+.letter input.valid {
+  border-color: green;
+}
+.letter button {
+  width: 100%;
+  border: 0;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+
+.letter button:hover {
+  background-color: rgb(136, 88, 237);
+  color: white;
+  padding: 8px;
+  border: 2px solid white;
+}
+.newsletter-img {
+  width: 1000px;
+  text-align: center;
+  margin: 50px auto;
+  height: 100%;
+  position: relative;
+  height: 100%;
+}
+.newsletter-img img {
+  width: 100%;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.purple-container {
+  width: 100%;
+  background-color: rgb(123, 76, 214);
+  height: 370px;
+}
+.letter p {
+  margin-top: 15px;
+}

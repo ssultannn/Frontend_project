@@ -1,0 +1,56 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 50px 10px 50px;
+}
+.footer-logo {
+  width: 220px;
+  height: 130px;
+}
+.footer-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-flex h3 {
+  margin: 30px 0;
+  font-size: 21px;
+}
+.footer-flex p {
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+hr {
+  width: 90%;
+  margin: 30px auto;
+  background-color: white;
+  height: 0.1px;
+}
+.payment-community {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.payment-community h3 {
+  font-size: 21px;
+  margin: 20px 0;
+}
+
+.footer-payment img {
+  width: 43px;
+  height: 30px;
+  margin: 14px;
+}
+
+.footer-community img {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+}
